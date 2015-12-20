@@ -47,7 +47,7 @@ public class ServiceFacade {
    
     @RequestMapping(value="/insert", method=RequestMethod.GET)
 	public String setupInsertion(Model model) {
-//    	this is a test
+    	int abc;
     	Customer customer = new Customer();
     	model.addAttribute("customer", customer);
     	return "Insert";
