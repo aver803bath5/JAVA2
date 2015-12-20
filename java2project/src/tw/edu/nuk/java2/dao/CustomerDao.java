@@ -6,6 +6,7 @@ import java.util.Map;
 import tw.edu.nuk.java2.model.Customer;
 
 public interface CustomerDao {
+//	dream
 	Customer get(long Custid);
 	void saveOrUpdate(Customer customer);
 	void delete(Customer customer);
